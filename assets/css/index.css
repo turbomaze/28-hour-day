@@ -10,8 +10,18 @@
 }
 
 .title {
+  display: flex;
+  align-items: flex-end;
+  margin-bottom: 8px;
+}
+
+.title__text {
   font-size: 32px;
-  margin-bottom: 16px;
+  margin-right: 8px;
+}
+
+.github-button {
+  margin-right: 8px;
 }
 
 .week {
