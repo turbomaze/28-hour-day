@@ -12,12 +12,12 @@
 .title {
   display: flex;
   align-items: flex-end;
-  margin-bottom: 8px;
+  margin-bottom: 16px;
 }
 
 .title__text {
   font-size: 32px;
-  margin-right: 8px;
+  margin-right: 16px;
 }
 
 .github-button {
@@ -62,16 +62,51 @@
 }
 
 .controls {
-  margin-bottom: 16px;
+  margin-bottom: 8px;
 }
 
 .controls__row {
   display: flex;
   align-items: center;
-  margin-bottom: 8px;
+  margin-bottom: 16px;
 }
 
 .controls__slider {
   margin-left: 8px;
   margin-right: 8px;
+}
+
+.legend {
+  display: flex;
+  margin-bottom: 16px;
+}
+
+.legend__item {
+  display: flex;
+  align-items: center;
+  margin-right: 32px;
+}
+
+.legend__item__color {
+  width: 16px;
+  height: 16px;
+  margin-right: 4px;
+  border-radius: 2px;
+}
+
+.legend__item__color_1 {
+  background: #ffffff;
+  border: 1px solid #e8e8e8;
+}
+
+.legend__item__color_2 {
+  background: #e8e8e8;
+}
+
+.legend__item__color_3 {
+  background: #daeef5;
+}
+
+.legend__item__color_4 {
+  background: #f5dadf;
 }
