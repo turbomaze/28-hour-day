@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.container {
+  width: 990px;
+  margin: 32px auto 0;
+}
+
+.title {
+  font-size: 32px;
+  margin-bottom: 32px;
+}
+
+.week {
+  display: flex;
+}
+
+.day {
+  flex: 1;
+}
+
+.day__label {
+  font-size: 18px;
+  margin-bottom: 8px;
+}
+
+.day__hour {
+  font-size: 12px;
+}

@@ -9,6 +9,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "$(npm bin)/webpack --optimize-minimize --mode production",
+    "client": "NODE_ENV=development $(npm bin)/webpack --mode development --watch",
     "start": "ruby -rwebrick -e'WEBrick::HTTPServer.new(:Port => 8000, :DocumentRoot => Dir.pwd).start'"
   },
   "author": "Anthony Liu",
