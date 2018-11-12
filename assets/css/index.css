@@ -30,3 +30,11 @@
 .day__hour {
   font-size: 12px;
 }
+
+.day__hour_asleep {
+  background: red;
+}
+
+.day__hour_awake {
+  background: blue;
+}
