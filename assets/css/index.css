@@ -38,3 +38,18 @@
 .day__hour_awake {
   background: blue;
 }
+
+.controls {
+  margin-bottom: 16px;
+}
+
+.controls__row {
+  display: flex;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.controls__slider {
+  margin-left: 8px;
+  margin-right: 8px;
+}
