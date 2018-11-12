@@ -6,20 +6,23 @@
 
 .container {
   width: 990px;
-  margin: 32px auto 0;
+  margin: 16px auto 64px;
 }
 
 .title {
   font-size: 32px;
-  margin-bottom: 32px;
+  margin-bottom: 16px;
 }
 
 .week {
   display: flex;
+  border: 1px solid #efefef;
+  padding: 4px 0;
 }
 
 .day {
   flex: 1;
+  margin: 0 8px;
 }
 
 .day__label {
@@ -29,14 +32,15 @@
 
 .day__hour {
   font-size: 12px;
+  padding: 2px 2px 2px 8px;
 }
 
 .day__hour_asleep {
-  background: red;
+  background: #e8e8e8;
 }
 
 .day__hour_awake {
-  background: blue;
+  background: #ffffff;
 }
 
 .controls {
