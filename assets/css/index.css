@@ -43,6 +43,14 @@
   background: #ffffff;
 }
 
+.day__hour_working {
+  background: #daeef5;
+}
+
+.day__hour_working.day__hour_asleep {
+  background: #f5dadf;
+}
+
 .controls {
   margin-bottom: 16px;
 }
